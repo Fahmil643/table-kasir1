@@ -1,0 +1,65 @@
+.navbar {
+    font-weight: bold;
+}
+.navbar span {
+    color: blue;
+}
+/* icon */
+.icon {
+    margin: 0;
+    
+}
+.media h2 {
+    text-align: center;
+}
+.icon h5 i {
+    margin-right: 10px; /* Ubah nilai 10px sesuai kebutuhan */
+}
+
+/* Menghilangkan margin pada ikon terakhir agar tidak ada ruang kosong di ujung */
+.icon h5 i:last-child {
+    margin-right: 0;
+}
+.col-md-9h3 {
+    font-family: 'Alfa Slab One',sans-serif;
+}
+.alfa-slab-one-regular {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* container isi */
+.row ul li:hover {
+    background-color: rgb(202, 202, 202);
+}
+
+/* card body */
+.row .card {
+    margin: 10px 20px;
+    color: white;
+    
+}
+.card-body a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.card-body a p:hover {
+    border-bottom: 1px solid white;
+}
+.media i {
+    color: #bababa;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+
+  .col-md-9 .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+   
+
+  
+
+
+

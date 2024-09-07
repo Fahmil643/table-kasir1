@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px; /* Jarak antar elemen */
+    padding: 10px; /* Padding dalam container */
+}
+
+.link {
+    border: 1px solid white;
+    background-color: #f2f2f2;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    flex: 1 1 100px; /* Elemen akan menyesuaikan ukuran berdasarkan ruang yang tersedia */
+    max-width: 150px; /* Membatasi ukuran maksimum setiap link */
+}
+
+.link:hover {
+    background-color: #211ec7;
+    color: #fff;
+    transform: scale(1.1); /* Efek zoom saat dihover */
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Mengatur warna teks untuk mengikuti elemen .link */
+}
